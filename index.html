@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度热搜数据的爬取与分析</title>
+    <style>
+        body {
+            font-family: "微软雅黑", sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .author-info {
+            color: #666;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .chart-section {
+            margin: 40px 0;
+        }
+        .chart-title {
+            color: #2c3e50;
+            font-size: 1.5em;
+        }
+        .chart-img {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部信息 -->
+    <div class="header">
+        <h1>百度热搜数据的爬取与分析</h1>
+        <p class="author-info">作者：西贝贾</p>
+        <p class="author-info">指导老师：Oeasy</p>
+    </div>
+
+    <!-- 前十名热度柱状图 -->
+    <div class="chart-section">
+        <h2 class="chart-title">前十名热度值柱状图</h2>
+        <img src="前十名.png" class="chart-img" alt="前十名热度值柱状图">
+    </div>
+
+    <!-- 热度时间序列折线图 -->
+    <div class="chart-section">
+        <h2 class="chart-title">热度时间序列变化折线图</h2>
+        <img src="热度变化.png" class="chart-img" alt="热度时间序列变化折线图">
+    </div>
+
+    <!-- 页脚标注 -->
+    <div class="footer">
+        <p>python程序设计课程作业展示 | CUC</p>
+    </div>
+</body>
+</html>
